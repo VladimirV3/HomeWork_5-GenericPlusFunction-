@@ -8,5 +8,12 @@
 
 import Foundation
 
-print("Hello, World!")
+import Foundation
+
+func sum<T: Numeric>(a: T, b: T) -> T
+{
+    return a + b
+}
+
+print(sum(a: 4, b: -6.8))
 
