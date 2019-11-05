@@ -8,8 +8,6 @@
 
 import Foundation
 
-import Foundation
-
 func sum<T: Numeric>(a: T, b: T) -> T
 {
     return a + b
